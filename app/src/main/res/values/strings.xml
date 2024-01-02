@@ -3,4 +3,31 @@
     <string name="description">Descripción:</string>
     <string name="description_text">Este es un ejemplo de un texto para la descripción del lugar mensionado en esta sección de la aplicación</string>
     <string name="title_text">Parque principal</string>
+    <string name="registration_title">Registra el lugar</string>
+    <string name="register">Registrar</string>
+    <string name="et_name">Nombre</string>
+    <string name="country">País</string>
+    <string name="weather">Clima:</string>
+    <string name="weatherIs">su clima es</string>
+    <string name="hot">Caliente</string>
+    <string name="cold">Frío</string>
+    <string name="info_text">"%s, %s %s %s\nTemáticas: %s\nTipo de lugar: %s"</string>
+    <string name="themes">Temáticas</string>
+    <string name="culture">Cultura</string>
+    <string name="adventure">Aventura</string>
+    <string name="nature">Naturaleza</string>
+    <string name="archiquecture">Arquitectura</string>
+    <string name="events">Eventos</string>
+    <string name="gastronomy">Gastronomía</string>
+    <string name="type_of_place">Tipo de lugar:</string>
+    
+    <string-array name="type_place_array">
+        <item>Parques</item>
+        <item>Museos</item>
+        <item>Monumentos históricos</item>
+        <item>Zonas comerciales</item>
+        <item>Playas</item>
+        <item>Jardines Botánicos</item>
+    </string-array>
+    
 </resources>

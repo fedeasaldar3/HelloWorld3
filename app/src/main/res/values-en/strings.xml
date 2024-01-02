@@ -4,4 +4,30 @@
     <string name="description">Description:</string>
     <string name="description_text">This is an example of a text related with the places mentioned in this section of the App</string>
     <string name="title_text">Main park</string>
+    <string name="registration_title">Register the place</string>
+    <string name="register">Registrar</string>
+    <string name="et_name">Nombre</string>
+    <string name="country">País</string>
+    <string name="weather">Clima</string>
+    <string name="hot">Caliente</string>
+    <string name="cold">Frío</string>
+    <string name="weatherIs">it weather is</string>
+    <string name="info_text">"%s, %s %s %s\nThemes: %s\nType of place: %s"</string>
+    <string name="themes">Temáticas</string>
+    <string name="culture">Cultura</string>
+    <string name="adventure">Aventura</string>
+    <string name="nature">Naturaleza</string>
+    <string name="archiquecture">Arquitectura</string>
+    <string name="events">Eventos</string>
+    <string name="gastronomy">Gastronomía</string>
+    <string name="type_of_place">Tipo de lugar:</string>
+
+    <string-array name="type_place_array">
+        <item>Parques</item>
+        <item>Museos</item>
+        <item>Monumentos históricos</item>
+        <item>Zonas comerciales</item>
+        <item>Playas</item>
+        <item>Jardines Botánicos</item>
+    </string-array>
 </resources>
