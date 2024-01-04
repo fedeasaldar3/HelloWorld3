@@ -56,6 +56,8 @@ class PlaceRegistrationActivity : AppCompatActivity() {
                 typeOfPlace
             )
 
+            val place = Place(namePlace, nameCountry, weather, themes, typeOfPlace, R.drawable.santo1)
+
         }
 
     }

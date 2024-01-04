@@ -6,28 +6,28 @@
     <string name="title_text">Main park</string>
     <string name="registration_title">Register the place</string>
     <string name="register">Registrar</string>
-    <string name="et_name">Nombre</string>
-    <string name="country">País</string>
-    <string name="weather">Clima</string>
-    <string name="hot">Caliente</string>
-    <string name="cold">Frío</string>
+    <string name="et_name">Name</string>
+    <string name="country">Country</string>
+    <string name="weather">Weather</string>
+    <string name="hot">Hot</string>
+    <string name="cold">Cold</string>
     <string name="weatherIs">it weather is</string>
     <string name="info_text">"%s, %s %s %s\nThemes: %s\nType of place: %s"</string>
-    <string name="themes">Temáticas</string>
-    <string name="culture">Cultura</string>
-    <string name="adventure">Aventura</string>
-    <string name="nature">Naturaleza</string>
-    <string name="archiquecture">Arquitectura</string>
-    <string name="events">Eventos</string>
-    <string name="gastronomy">Gastronomía</string>
-    <string name="type_of_place">Tipo de lugar:</string>
+    <string name="themes">Themes</string>
+    <string name="culture">Culture</string>
+    <string name="adventure">Adventure</string>
+    <string name="nature">Nature</string>
+    <string name="archiquecture">Architecture</string>
+    <string name="events">Events</string>
+    <string name="gastronomy">Gastronomy</string>
+    <string name="type_of_place">Type of place:</string>
 
     <string-array name="type_place_array">
-        <item>Parques</item>
-        <item>Museos</item>
-        <item>Monumentos históricos</item>
-        <item>Zonas comerciales</item>
-        <item>Playas</item>
-        <item>Jardines Botánicos</item>
+        <item>Parks</item>
+        <item>Museums</item>
+        <item>Historical Monuments</item>
+        <item>Shopping Areas</item>
+        <item>Beaches</item>
+        <item>Botanical Gardens</item>
     </string-array>
 </resources>
