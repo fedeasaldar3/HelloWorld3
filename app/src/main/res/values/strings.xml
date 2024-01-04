@@ -20,7 +20,8 @@
     <string name="events">Eventos</string>
     <string name="gastronomy">Gastronomía</string>
     <string name="type_of_place">Tipo de lugar:</string>
-    
+    <string name="tropical_highland">Tropical de altitud</string>
+
     <string-array name="type_place_array">
         <item>Parques</item>
         <item>Museos</item>
@@ -29,5 +30,5 @@
         <item>Playas</item>
         <item>Jardines Botánicos</item>
     </string-array>
-    
+
 </resources>

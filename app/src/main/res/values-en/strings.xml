@@ -21,6 +21,7 @@
     <string name="events">Events</string>
     <string name="gastronomy">Gastronomy</string>
     <string name="type_of_place">Type of place:</string>
+    <string name="tropical_highland">Tropical de altitud</string>
 
     <string-array name="type_place_array">
         <item>Parks</item>

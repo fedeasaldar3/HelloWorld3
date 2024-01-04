@@ -6,5 +6,5 @@ data class Place(
     val weather: String,
     val themes: String,
     val typePlace: String,
-    val photo: Int
+    val photo: String
 )
