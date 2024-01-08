@@ -5,10 +5,11 @@ import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
 
 class ListPlacesActivity : AppCompatActivity() {
 
-    private lateinit var listPlaces: ArrayList<Place>
+    private lateinit var listPlaces: ArrayList<PlaceItem>
     private lateinit var placesAdapter: PlacesAdapter
     private lateinit var placesRecyclerView: RecyclerView
 
@@ -18,7 +19,8 @@ class ListPlacesActivity : AppCompatActivity() {
 
         placesRecyclerView = findViewById(R.id.places_rv)
 
-        listPlaces = createMockPlaces()
+        //listPlaces = createMockPlaces()
+        listPlaces = loadMockPlaceFromJson()
 
         placesAdapter = PlacesAdapter(listPlaces)
         /*placesRecyclerView.addItemDecoration(
@@ -35,7 +37,20 @@ class ListPlacesActivity : AppCompatActivity() {
         placesRecyclerView.adapter = placesAdapter
     }
 
-    private fun createMockPlaces(): ArrayList<Place> {
+    private fun loadMockPlaceFromJson(): ArrayList<PlaceItem> {
+        val placesString: String =
+            applicationContext
+                .assets
+                .open("places_json.json")
+                .bufferedReader()
+                .use { it.readText() }
+
+        val gson = Gson()
+        val data = gson.fromJson(placesString, Place::class.java)
+        return data
+    }
+
+    /*private fun createMockPlaces(): ArrayList<PlaceItem> {
         return arrayListOf(
             Place(
                 "Medellín",
@@ -80,5 +95,5 @@ class ListPlacesActivity : AppCompatActivity() {
             )
         )
 
-    }
+    }*/
 }

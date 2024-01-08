@@ -56,7 +56,7 @@ class PlaceRegistrationActivity : AppCompatActivity() {
                 typeOfPlace
             )
 
-            val place = Place(namePlace, nameCountry, weather, themes, typeOfPlace, "https://fedelsahostels.com/wp-content/uploads/2020/07/Copy-of-org_c7f0aa8f36491f97_1537962468000-e1598367187404-1.jpg")
+            //val place = Place(namePlace, nameCountry, weather, themes, typeOfPlace, "https://fedelsahostels.com/wp-content/uploads/2020/07/Copy-of-org_c7f0aa8f36491f97_1537962468000-e1598367187404-1.jpg")
 
         }
 
