@@ -1,10 +1,15 @@
-package com.example.helloworld
+package com.example.helloworld.List
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.DividerItemDecoration
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.helloworld.R
+import com.example.helloworld.datail.DetailActivity
+import com.example.helloworld.model.Place
+import com.example.helloworld.model.PlaceItem
 import com.google.gson.Gson
 
 class ListPlacesActivity : AppCompatActivity() {
@@ -22,7 +27,7 @@ class ListPlacesActivity : AppCompatActivity() {
         //listPlaces = createMockPlaces()
         listPlaces = loadMockPlaceFromJson()
 
-        placesAdapter = PlacesAdapter(listPlaces)
+        placesAdapter = PlacesAdapter(onItemClicked = { onPlaceClicked(it) }, listPlaces)
         /*placesRecyclerView.addItemDecoration(
             DividerItemDecoration(
                 this,
@@ -35,6 +40,13 @@ class ListPlacesActivity : AppCompatActivity() {
             setHasFixedSize(false)
         }
         placesRecyclerView.adapter = placesAdapter
+    }
+
+    private fun onPlaceClicked(place: PlaceItem) {
+        Log.d("Place Name", place.placeName)
+        val inten = Intent(this, DetailActivity::class.java)
+        inten.putExtra("place", place)
+        startActivity(inten)
     }
 
     private fun loadMockPlaceFromJson(): ArrayList<PlaceItem> {

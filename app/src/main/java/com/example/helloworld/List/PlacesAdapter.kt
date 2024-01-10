@@ -1,4 +1,4 @@
-package com.example.helloworld
+package com.example.helloworld.List
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,14 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.helloworld.R
+import com.example.helloworld.model.PlaceItem
 import com.squareup.picasso.Picasso
 
-class PlacesAdapter(private val placesList: ArrayList<PlaceItem>) :
+class PlacesAdapter(
+    private val onItemClicked: (PlaceItem) -> Unit,
+    private val placesList: ArrayList<PlaceItem>
+) :
     RecyclerView.Adapter<PlacesAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -19,6 +24,7 @@ class PlacesAdapter(private val placesList: ArrayList<PlaceItem>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val place = placesList[position]
+        holder.itemView.setOnClickListener { onItemClicked(placesList[position]) }
         holder.bind(place)
     }
 
@@ -30,7 +36,7 @@ class PlacesAdapter(private val placesList: ArrayList<PlaceItem>) :
         private var nameTextView: TextView = itemView.findViewById(R.id.name_tv)
         private var climateTextView: TextView = itemView.findViewById(R.id.climate_tv)
         private var placeImageView: ImageView = itemView.findViewById(R.id.picture_iv)
-        fun bind(place: PlaceItem){
+        fun bind(place: PlaceItem) {
             nameTextView.text = place.placeName
             climateTextView.text = place.weather
             Picasso.get().load(place.imageUrl).into(placeImageView)

@@ -1,7 +1,8 @@
-package com.example.helloworld
+package com.example.helloworld.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class PlaceItem(
     @SerializedName("country")
@@ -16,4 +17,4 @@ data class PlaceItem(
     val typeOfPlace: String,
     @SerializedName("weather")
     val weather: String
-)
+) : Serializable

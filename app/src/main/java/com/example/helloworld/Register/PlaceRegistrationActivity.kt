@@ -1,4 +1,4 @@
-package com.example.helloworld
+package com.example.helloworld.Register
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.Spinner
 import android.widget.TextView
+import com.example.helloworld.R
 import com.google.android.material.textfield.TextInputEditText
 
 class PlaceRegistrationActivity : AppCompatActivity() {
