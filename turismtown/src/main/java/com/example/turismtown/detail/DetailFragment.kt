@@ -1,0 +1,43 @@
+package com.example.turismtown.detail
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.navigation.fragment.navArgs
+import com.example.turismtown.databinding.FragmentDetailBinding
+import com.example.turismtown.main.MainActivity
+import com.squareup.picasso.Picasso
+
+class DetailFragment : Fragment() {
+
+    private lateinit var detailBinding: FragmentDetailBinding
+    private val args: DetailFragmentArgs by navArgs()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        (activity as MainActivity).showIcon()
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        detailBinding = FragmentDetailBinding.inflate(inflater, container, false)
+        return detailBinding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val place = args.place
+
+        with(detailBinding) {
+            namePlaceTv.text = place.placeName
+            descriptionPlaceTv.text = place.typeOfPlace
+            Picasso.get().load(place.imageUrl).into(imagePlaceTv)
+        }
+    }
+
+}
