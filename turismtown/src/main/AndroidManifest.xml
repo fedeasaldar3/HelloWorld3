@@ -11,6 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".tabbed.TabbedActivity"
+            android:exported="true"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.HelloWorld.NoActionBar">
+
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".drawer.DrawerActivity"
             android:exported="true"
             android:label="@string/title_activity_drawer"
@@ -24,8 +35,6 @@
             android:name=".bottom.BottomActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

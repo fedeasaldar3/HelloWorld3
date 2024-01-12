@@ -18,5 +18,7 @@
     <color name="earthy_brown">#8B4513</color>
     <color name="moss_green">#D9F3E8</color>
     <!-- Agrega más colores según sea necesario -->
+    <color name="dark_turquoise_green">#009688</color>
+    <color name="pine_green">#00695C</color>
 
 </resources>
