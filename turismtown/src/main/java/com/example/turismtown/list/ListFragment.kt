@@ -55,5 +55,4 @@ class ListFragment : Fragment() {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(place))
     }
 
-
 }

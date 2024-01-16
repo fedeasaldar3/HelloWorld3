@@ -26,9 +26,17 @@
         <argument
             android:name="place"
             app:argType="com.example.turismtown.model.PlaceItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/navigation_preference"
         android:name="com.example.turismtown.preference.SettingsFragment"
         android:label="@string/title_preference" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.turismtown.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
