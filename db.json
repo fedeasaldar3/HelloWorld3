@@ -1,0 +1,44 @@
+{
+  "places": [
+    {
+      "placeName": "Medellín",
+      "country": "Colombia",
+      "weather": "Tropical alto",
+      "themes": "Arte y cultura, vida nocturna, turismo urbano.",
+      "typeOfPlace": "Museos, parques, zonas comerciales.",
+      "imageUrl": "https://www.travelers.com.co/assets/cache/uploads/medellin/1300x868/medellin-travelers-apartamentos-suites-colombia.jpeg"
+    },
+    {
+      "placeName": "Guatapé",
+      "country": "Colombia",
+      "weather": "Tropical alto",
+      "themes": "Naturaleza, aventura, turismo rural.",
+      "typeOfPlace": "Embalse, piedra del Peñol, miradores.",
+      "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e4/7b/b5.jpg"
+    },
+    {
+      "placeName": "Jardín",
+      "country": "Colombia",
+      "weather": "Frio",
+      "themes": "Naturaleza, patrimonio histórico, turismo rural.",
+      "typeOfPlace": "Plazas, iglesias, parques naturales.",
+      "imageUrl": "https://i.ytimg.com/vi/HR4TfljCEn4/hqdefault.jpg"
+    },
+    {
+      "placeName": "Santa Fé de Antioquia",
+      "country": "Colombia",
+      "weather": "Caliente",
+      "themes": "Historia, patrimonio arquitectónico, turismo cultural.",
+      "typeOfPlace": "Calles coloniales, iglesias, arquitectura histórica.",
+      "imageUrl": "https://www.panajamtours.com/wp-content/uploads/2018/05/Santa-Fe-de-antioquia-1.jpg"
+    },
+    {
+      "placeName": "Jericó",
+      "country": "Colombia",
+      "weather": "Frio",
+      "themes": "Historia, turismo religioso, turismo rural.",
+      "typeOfPlace": "Iglesias, museos, paisajes naturales.",
+      "imageUrl": "https://fedelsahostels.com/wp-content/uploads/2020/07/Copy-of-org_c7f0aa8f36491f97_1537962468000-e1598367187404-1.jpg"
+    }
+  ]
+}
