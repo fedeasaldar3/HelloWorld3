@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TurismTown</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Descripción:</string>
+    <string name="description_text">Este es un ejemplo de un texto para la descripción del lugar mensionado en esta sección de la aplicación</string>
+    <string name="title_text">Parque principal</string>
+    <string name="registration_title">Registra el lugar</string>
+    <string name="register">Registrar</string>
+    <string name="et_name">Nombre</string>
+    <string name="country">País</string>
+    <string name="weather">Clima:</string>
+    <string name="weatherIs">su clima es</string>
+    <string name="hot">Caliente</string>
+    <string name="cold">Frío</string>
+    <string name="info_text">"%s, %s %s %s\nTemáticas: %s\nTipo de lugar: %s"</string>
+    <string name="themes">Temáticas</string>
+    <string name="culture">Cultura</string>
+    <string name="adventure">Aventura</string>
+    <string name="nature">Naturaleza</string>
+    <string name="archiquecture">Arquitectura</string>
+    <string name="events">Eventos</string>
+    <string name="gastronomy">Gastronomía</string>
+    <string name="type_of_place">Tipo de lugar:</string>
+    <string name="tropical_highland">Tropical de altitud</string>
+
+    <string-array name="type_place_array">
+        <item>Parques</item>
+        <item>Museos</item>
+        <item>Monumentos históricos</item>
+        <item>Zonas comerciales</item>
+        <item>Playas</item>
+        <item>Jardines Botánicos</item>
+    </string-array>
+
+
+    <!-- Sync Preferences -->
+    <string name="notifications">Notificaciones</string>
+    <string name="notifications_on">Activar notificaciones</string>
+    <string name="notifications_sound">Activar sonido de notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Ajustes</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
